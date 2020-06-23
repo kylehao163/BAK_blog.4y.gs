@@ -280,3 +280,7 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/qiubaiying/qiubaiying.github.io/blob/master/LICENSE)。
 
+
+## 博主魔改内容 20200623
+1._includes/head.html 修改font-awesome.min.css文件地址为https://cdn.jsdelivr.net/
+2._layouts/page.html 修改地址https://cdn.jsdelivr.net
