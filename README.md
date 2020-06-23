@@ -282,5 +282,6 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 
 ## 博主魔改内容 20200623
-1._includes/head.html 修改font-awesome.min.css文件地址为https://cdn.jsdelivr.net/
-2._layouts/page.html 修改地址https://cdn.jsdelivr.net
+1. _includes/head.html 修改font-awesome.min.css文件地址为https://cdn.jsdelivr.net/。
+2. _layouts/page.html 修改地址https://cdn.jsdelivr.net
+3. _includes/footer.html 修改fastclick.min.js文件地址为https://cdn.jsdelivr.net/。
