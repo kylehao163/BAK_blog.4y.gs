@@ -6,7 +6,7 @@ email: info@4y.gs
 description: "枕边听松语，槛外看潮生。"
 keyword: "BY, BY Blog, 听松阁, blog.4y.gs, 美文, 古典诗词"
 url: "http://blog.4y.gs"          # your host, for absolute URL
-baseurl: "https://cdn.jsdelivr.net/gh/kylehao/blog.4y.gs"      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
 # Sidebar settings
