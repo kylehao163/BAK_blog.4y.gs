@@ -4,13 +4,13 @@ layout: default
 
 <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-<!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
+<!-- <img src="https://cdn.jsdelivr.net/gh/kylehao/blog.4y.gs/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
 
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
         position: relative;
-        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
+        background-image: url('https://cdn.jsdelivr.net/gh/kylehao/blog.4y.gs/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
     }
 
     {% if page.header-mask %}
@@ -85,12 +85,12 @@ layout: default
                 <!--Gitalk评论start  -->
                 {% if site.gitalk.enable %}
                 <!-- 引入Gitalk评论插件  -->
-                <link rel="stylesheet" href="{{ site.baseurl }}/4y/gitalk.css">
-                <script src="{{ site.baseurl }}/4y/gitalk.min.js"></script>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kylehao/blog.4y.gs/4y/gitalk.css">
+                <script src="https://cdn.jsdelivr.net/gh/kylehao/blog.4y.gs/4y/gitalk.min.js"></script>
                 <div id="gitalk-container"></div>
                 <!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
                 <!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
-                <script src="{{ site.baseurl }}/js/md5.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/gh/kylehao/blog.4y.gs/4y/js/md5.min.js"></script>
                 <script type="text/javascript">
                     var gitalk = new Gitalk({
                     clientID: '{{site.gitalk.clientID}}',
@@ -204,7 +204,7 @@ layout: default
 </script>
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
-    async("{{ site.baseurl }}/4y/anchor.min.js",function(){
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
         // BY Fix:去除标题前的‘#’ issues:<https://github.com/qiubaiying/qiubaiying.github.io/issues/137>
         // anchors.options = {
         //   visible: 'always',

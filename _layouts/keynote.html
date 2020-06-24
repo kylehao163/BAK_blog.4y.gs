@@ -9,7 +9,7 @@ layout: default
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
-        /*background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')*/
+        /*background-image: url('https://cdn.jsdelivr.net/gh/kylehao/blog.4y.gs/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')*/
         height: 500px;
         overflow: hidden;
     }
@@ -91,8 +91,8 @@ layout: default
                 <!-- Gitalk 评论 start  -->
                 {% if site.gitalk.enable %}
                 <!-- Gitalk link  -->
-                <link rel="stylesheet" href="{{ site.baseurl }}/4y/gitalk.css">
-                <script src="{{ site.baseurl }}/4y/gitalk.min.js"></script>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kylehao/blog.4y.gs/4y/gitalk.css">
+                <script src="https://cdn.jsdelivr.net/gh/kylehao/blog.4y.gs/4y/gitalk.css"></script>
 
                 <div id="gitalk-container"></div>
                     <script type="text/javascript">
@@ -215,7 +215,7 @@ layout: default
 </script>
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
-    async("{{ site.baseurl }}/4y/anchor.min.js",function(){
+    async("https://cdn.jsdelivr.net/gh/kylehao/blog.4y.gs/4y/anchor.min.js",function(){
         anchors.options = {
           visible: 'always',
           placement: 'right',
